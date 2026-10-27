@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "STATIC_EXPORT=1 next build",
     "content:export": "node scripts/export-content-snapshot.mjs",
     "content:audit": "node scripts/audit-public-content.mjs",
     "start": "next start",
